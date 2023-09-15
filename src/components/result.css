@@ -1,0 +1,79 @@
+.result-container {
+    background: rgba(255, 255, 255, 0.8);
+    background-image: url('../assets/Group.png');
+    background-position:center; 
+    background-repeat:no-repeat; 
+    background-attachment:local;
+    background-size:cover;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 auto;
+    
+  }
+  
+  .result-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .copy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .copy-button:hover {
+    background-color: #0056b3;
+  }
+  /* @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+  .res{
+    font-size: large;
+    font-weight: 520 ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* animation: spin 1s linear 1; */
+  }
+
+  @media (min-width: 768px) {
+    .result-container {
+      max-width: 500px;
+    }
+  
+    .result-header {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .result-container {
+      max-width: 100%;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 10px;
+    }
+  
+    .result-header {
+      font-size: 20px;
+    }
+  }
+  
+  
+  
+  
+  
