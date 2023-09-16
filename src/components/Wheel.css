@@ -58,3 +58,16 @@ img {
     transform: rotate(720deg);
   }
 }
+@media (max-width: 768px) {
+  img {
+    max-width: 80%; 
+    height: auto; 
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    max-width: 60%; 
+    height: auto; 
+  }
+}
