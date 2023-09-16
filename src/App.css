@@ -1,14 +1,13 @@
-/* App.css */
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: #f0f0f0;
-  background-image: url('./assets/Maskgroup.png'); /* Replace with the path to your background image */
-  background-size: cover; /* Cover the entire viewport */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent image repetition */
+  background-image: url('./assets/Maskgroup.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .app-container {
@@ -27,13 +26,13 @@
   color: red;
 }
 
-/* Responsive layout */
+
 @media (min-width: 768px) {
-  /* Tablet styles */
+
 }
 
 @media (min-width: 1024px) {
-  /* Desktop styles */
+
 }
 
 
@@ -45,7 +44,7 @@
   color: red;
 }
 .spin-button {
-  margin-top: 20px; /* Add space between the wheel and the button */
+  margin-top: 20px; 
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -56,11 +55,11 @@
 }
 
 .wheel-result-container {
-  position: relative; /* Make the container relative */
+  position: relative; 
 }
 .result-message {
   position: absolute;
-  top: 120%; /* Position the result message below the wheel */
+  top: 120%; 
   left: 50%;
   transform: translateX(-50%);
   background-color: #fff;
@@ -69,11 +68,4 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Responsive layout */
-@media (min-width: 768px) {
-  /* Tablet styles */
-}
 
-@media (min-width: 1024px) {
-  /* Desktop styles */
-}
